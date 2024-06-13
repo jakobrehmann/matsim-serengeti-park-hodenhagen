@@ -31,7 +31,7 @@ public class CreateZooShutle {
 
     public static void main(String[] args) {
 
-        var root = Paths.get("C:\\Users\\Janekdererste\\Projects\\matsim-serengeti-park-hodenhagen\\scenarios\\serengeti-park-v1.0\\input");
+        var root = Paths.get("./scenarios/serengeti-park-v1.0/input");
 
         var network = NetworkUtils.readNetwork(root.resolve("serengeti-park-network-v1.0.xml.gz").toString());
         var scenario = ScenarioUtils.createScenario(ConfigUtils.createConfig());

@@ -11,7 +11,7 @@
 
 	<properties>
 		<!-- release -->
-		<matsim.version>13.0</matsim.version>
+		<matsim.version>2024.0</matsim.version>
 
 		<!-- PR-labelled release -->
 		<!--<matsim.version>14.0-PR1452</matsim.version>-->
@@ -21,8 +21,8 @@
 		
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<maven.compiler.source>11</maven.compiler.source>
-		<maven.compiler.target>11</maven.compiler.target>
+		<maven.compiler.source>21</maven.compiler.source>
+		<maven.compiler.target>21</maven.compiler.target>
 		
 	</properties>
 
